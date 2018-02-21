@@ -3,7 +3,7 @@
 
 ## Description of the dataset
 
-This dataset is extrated from the paper "Human Activity Recognition Using Smartphones Data Set".
+This dataset is extrated from the paper "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The features selected for this database (see features.txt) come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 These temporal domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered 

@@ -21,6 +21,10 @@ fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to
 ## Features selected
 
 The assignment explicitly states "Extracts only the measurements on the mean and standard deviation for each measurement." 
-Thus, only the pair of variables with a mean and the respective standar deviation (mean() and std()) were selected. 
+Thus, only the pair of variables with a mean and the respective standar deviation (mean() and std()) were selected. The
+final matrix therefore have a column with the subject id, a second column with the activity'name aplus 66 columns with the mean
+and standard deviation of 33 variables. The resulting variables' names were created in the form: tbodyacc_mean_x, which means the mean value of tBodyAcc-XYZ.
 
-The resulting variable names are of the following form: tbodyacc_mean_x, which means the mean value of tBodyAcc-XYZ.
+## Final dataset
+
+The final dataset contains the mean of each 66 variable per activity per subject. This it has 68 columns and 180 rows (30 subjects by six activities).
